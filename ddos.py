@@ -94,7 +94,7 @@ def build_threads(mode,thread_num,event,socks_type,ind_rlock):
 			th = threading.Thread(target = post,args=(event,socks_type,ind_rlock,))
 			th.setDaemon(True)
 			th.start()
-	elif mode == "cc":
+	elif mode == "ddos":
 		for _ in range(thread_num):
 			th = threading.Thread(target = cc,args=(event,socks_type,ind_rlock,))
 			th.setDaemon(True)
