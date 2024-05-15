@@ -1,2 +1,8 @@
-build:
-	CGO_ENABLED=0 go build -ldflags="-s -w" -trimpath -o spurt main.go
+datetime
+requests
+cfscrape
+socks
+pysocks
+colorama
+undetected_chromedriver
+cloudscraper
